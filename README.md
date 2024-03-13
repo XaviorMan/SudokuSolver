@@ -11,7 +11,8 @@ Download the project and start it up.
 
 ## Code Example
 '''
- public static boolean solveSudoku(int[][] grid) {
+
+    public static boolean solveSudoku(int[][] grid) {
         int[] emptyCell = findEmptyCell(grid);
 
         if (emptyCell == null) {
@@ -67,7 +68,6 @@ Download the project and start it up.
         }
 
         return true;
-    }
-    '''
+    }    '''
 ## Tests
 There are two parts to my Junite test one part gives the code a Sudoku puzzle that is solvable and one that is not solvable.
